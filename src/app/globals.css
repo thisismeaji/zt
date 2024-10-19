@@ -58,7 +58,7 @@ body{
 }
 
 header{
-  padding: 1rem;
+  padding: 1.5rem 2rem;
 }
 
 header{
@@ -72,7 +72,7 @@ header{
 }
 
 main{
-  height: 100vh;
+  height: 200vh;
 }
 
 h1{
@@ -93,5 +93,14 @@ li{
 }
 
 @media screen and (max-width:768px) {
-  
+
+  header{
+    padding: 1.5rem;
+  }
+  h1{
+    font-size: 1.2em;
+  }
+  p, a{
+    font-size: 0.8em;
+  }
 }

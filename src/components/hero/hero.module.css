@@ -1,6 +1,6 @@
 .hero{
     background-color: var(--secondary-color);
-    padding: 15rem 0;
+    padding: 15rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,3 +25,18 @@
     color: var(--accentTwo-color);
     max-width: 700px;
 }
+
+@media screen and (max-width:768px) {
+
+    .hero{
+        padding: 10rem 1.5rem;
+    }
+
+    .mainHero h1{
+      font-size: 1.4em;
+    }
+
+    .mainHero p{
+        font-size: 0.8em;
+    }
+  }

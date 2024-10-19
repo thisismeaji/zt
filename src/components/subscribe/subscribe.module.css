@@ -1,0 +1,39 @@
+.subscribe{
+    width: 100%;
+    max-width: 500px;
+    height: 2.8rem;
+    display: flex;
+    gap: 5px;
+    margin-top: 1rem;
+}
+
+.subscribe input{
+    padding-left: 2rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins-Regular';
+}
+
+.subscribe button{
+    padding: 0 2rem;
+    cursor: pointer;
+    background-color: var(--accentOne-color);
+    border: none;
+    color: var(--secondary-color);
+    border-radius: 5px;
+    font-family: 'Poppins-Medium';
+}
+
+@media screen and (max-width:768px) {
+    .subscribe{
+        flex-direction: column;
+        height: 6rem;
+    }
+
+    .subscribe input, .subscribe button{
+        font-size: 0.8em;
+        height: 2.5rem;
+    }
+}
