@@ -71,8 +71,14 @@ header{
   background-color: var(--secondary-color);
 }
 
-main{
-  height: 200vh;
+
+.post{
+  padding: 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 h1{
