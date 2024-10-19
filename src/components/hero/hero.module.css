@@ -1,0 +1,27 @@
+.hero{
+    background-color: var(--secondary-color);
+    padding: 15rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHero{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.mainHero h1{
+    color: var(--primary-color);
+    font-size: 2em;
+}
+
+.mainHero p{
+    color: var(--accentTwo-color);
+    max-width: 700px;
+}

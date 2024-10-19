@@ -1,0 +1,47 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    color: var(--primary-color);
+}
+
+.logo > h1 {
+    font-family: 'Poppins-BoldItalic';
+}
+
+.navDekstop > ul{
+    display: flex;
+    gap: 1rem;
+    font-family: 'Poppins-Regular';
+}
+
+.menu{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu span{
+    display: inline-block;
+    width: 2rem;
+    height: 1px;
+    background-color: var(--primary-color);
+}
+
+.navMobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .navDekstop{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+}
