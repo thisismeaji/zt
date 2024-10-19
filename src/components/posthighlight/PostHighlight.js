@@ -1,18 +1,37 @@
-// components/PostHighlight.js
 import React from 'react';
 import Styles from "../posthighlight/posthighlight.module.css";
+import Image from 'next/image';
+import Link from 'next/link';
 
-const PostHighlight = ({ title, description, buttonLabel, image }) => {
+const PostHighlight = ({ title, description, buttonLabel, image, link }) => {
     return (
         <article className={Styles.article}>
             <div className={Styles.postHighlight}>
-                <div className={Styles.image}>   
-                    <img src={image} alt={title} className={Styles.image} /> 
+                {/* Link untuk gambar */}
+                <div className={Styles.image}>
+                    <Link href={link}>
+                        <Image 
+                            src={image} 
+                            alt={title} 
+                            className={Styles.image} 
+                            width={1920} 
+                            height={1080}
+                            loading="eager"
+                        />
+                    </Link>
                 </div>
                 <div className={Styles.postDesc}>
-                    <h2>{title}</h2>
+                    {/* Link untuk judul */}
+                    <h2>
+                        <Link href={link}>
+                            {title}
+                        </Link>
+                    </h2>
                     <p>{description}</p>
-                    <button>{buttonLabel}</button>
+                    {/* Link untuk tombol */}
+                    <Link href={link}>
+                        <button>{buttonLabel}</button>
+                    </Link>
                 </div>
             </div>
         </article>

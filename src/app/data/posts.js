@@ -6,6 +6,7 @@ const posts = [
         buttonLabel: 'Selengkapnya',
         category: 'Tips dan Trik',
         image: '/images/image.png',
+        link: '/merenung' // Satu link untuk artikel ini
     },
     {
         title: 'Tips Harian untuk Kaum Introvert agar Selalu Work Life Balance',
@@ -13,6 +14,7 @@ const posts = [
         buttonLabel: 'Selengkapnya',
         category: 'Tips dan Trik',
         image: '/images/image.png',
+        link: '/introvert-work-life-balance' // Link untuk artikel ini
     },
     {
         title: 'Menemukan Ketenangan Melalui Tips Pengembangan Diri untuk Kaum Introvert',
@@ -20,6 +22,7 @@ const posts = [
         buttonLabel: 'Selengkapnya',
         category: 'Tips dan Trik',
         image: '/images/image.png',
+        link: '/introvert-development' // Link untuk artikel ini
     },
     {
         title: 'Membangun Kenyamanan Strategi untuk Menjadi Introvert yang Bahagia',
@@ -27,6 +30,7 @@ const posts = [
         buttonLabel: 'Selengkapnya',
         category: 'Tips dan Trik',
         image: '/images/image.png',
+        link: '/introvert-strategy' // Link untuk artikel ini
     },
 ];
 
