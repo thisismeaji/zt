@@ -7,8 +7,9 @@
     color: var(--primary-color);
 }
 
-.logo > h1 {
+.logo > p {
     font-family: 'Poppins-BoldItalic';
+    font-size: 1.4em;
 }
 
 .navDekstop > ul{
@@ -35,6 +36,10 @@
 }
 
 @media screen and (max-width: 768px) {
+
+    .logo > p{
+        font-size: 1.2em;
+    }
     
     .navDekstop{
         display: none;

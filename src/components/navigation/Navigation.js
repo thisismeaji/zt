@@ -5,7 +5,7 @@ export default function Navigation() {
     return(
         <nav className={Styles.nav}>
             <div className={Styles.logo}>
-                <h1>ZonaTenang.com</h1>
+                <p>ZonaTenang</p>
             </div>
             <div className={Styles.navDekstop}>
                 <ul>

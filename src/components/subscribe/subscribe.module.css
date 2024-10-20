@@ -32,6 +32,10 @@
         height: 6rem;
     }
 
+    .subscribe input{
+        padding: 1rem;
+    }
+
     .subscribe input, .subscribe button{
         font-size: 0.8em;
         height: 2.5rem;

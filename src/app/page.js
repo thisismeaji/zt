@@ -11,12 +11,12 @@ export default function Home() {
       <section className="post">
         {posts.map((post, index) => (
           <PostHighlight
-            key={index} // Menggunakan index sebagai key sementara
+            key={index}
             image={post.image}
             title={post.title}
             description={post.description}
             buttonLabel={post.buttonLabel}
-            link={post.link} // Kirim link yang sama untuk judul, tombol, dan gambar
+            link={post.link}
           />
         ))}
       </section>
